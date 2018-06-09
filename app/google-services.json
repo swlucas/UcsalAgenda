@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1083527578565",
+    "firebase_url": "https://ucsalagenda.firebaseio.com",
+    "project_id": "ucsalagenda",
+    "storage_bucket": "ucsalagenda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083527578565:android:12f5186962aecc16",
+        "android_client_info": {
+          "package_name": "com.webgnose.ucsalagenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083527578565-efg4s126lafrug5mk8fj9q9tag8r6065.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webgnose.ucsalagenda",
+            "certificate_hash": "95bbe6b223a2ee30cf22b33824c9b9a6e2ead315"
+          }
+        },
+        {
+          "client_id": "1083527578565-kf7b906masal9utrvo2u9fdksg5rbtvh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1083527578565-kf7b906masal9utrvo2u9fdksg5rbtvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV0_OolABI4wSTMqa7GLMZUnknHIQqzlE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083527578565-kf7b906masal9utrvo2u9fdksg5rbtvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
