@@ -1,7 +1,7 @@
 package com.webgnose.ucsalagenda;
 
 public class User {
-
+    private String id;
     private String nome;
     private String email;
     private String telefone;
@@ -9,10 +9,19 @@ public class User {
     public User(){
     }
 
-    public User(String nome, String email, String telefone) {
+    public User(String id, String nome, String email, String telefone) {
+        this.id = id;
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -37,5 +46,10 @@ public class User {
 
     public void setTelefone(String telefone) {
         this.telefone = telefone;
+    }
+
+    @Override
+    public String toString() {
+        return nome;
     }
 }

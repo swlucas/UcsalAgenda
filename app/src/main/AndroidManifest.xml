@@ -23,7 +23,10 @@
         </activity>
         <activity android:name=".FormActivity" />
         <activity android:name=".ForgotActivity" />
-        <activity android:name=".IndexActivity"></activity>
+        <activity android:name=".IndexActivity" />
+        <activity android:name=".UserDetalhe" />
+        <activity android:name=".UserScheduling" />
+        <activity android:name=".DetalhesActivity"></activity>
     </application>
 
 </manifest>

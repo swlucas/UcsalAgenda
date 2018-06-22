@@ -75,7 +75,7 @@ public class FormActivity extends AppCompatActivity {
                             //TODO:Tela de logar
                             writeData(nome,telefone,email,user);
                             startActivity(new Intent(FormActivity.this, IndexActivity.class));
-
+                            finish();
                         }
 
                     }
@@ -85,12 +85,10 @@ public class FormActivity extends AppCompatActivity {
 
     public void writeData(String nome, String telefone, String email, FirebaseUser user){
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference refDB = database.getReference();
+        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference refDB = database.child("users") .child(user.getUid());
 
-        refDB.child("users").child(user.getUid());
-
-        User userModel = new User(nome,email,telefone);
+        User userModel = new User(user.getUid(),nome,email,telefone);
 
         refDB.setValue(userModel);
 
